@@ -5,4 +5,7 @@ package com.jingdong;
  * @create 2021/12/2 14:04
  */
 public class Test {
+    public static void main(String[] args) {
+
+    }
 }

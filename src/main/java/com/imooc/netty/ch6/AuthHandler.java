@@ -1,0 +1,31 @@
+package com.imooc.netty.ch6;
+
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.SimpleChannelInboundHandler;
+
+/**
+ * @author
+ */
+public class AuthHandler extends SimpleChannelInboundHandler<ByteBuf> {
+
+
+    // 重写的channnelRead会调用channelRead0方法，最终会在channelread中释放消息，以避免内存泄漏
+    @Override
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+        //
+    }
+
+    @Override
+    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf password) throws Exception {
+        if (paas(password)) {
+            ctx.pipeline().remove(this);
+        } else {
+            ctx.close();
+        }
+    }
+
+    private boolean paas(ByteBuf password) {
+        return false;
+    }
+}

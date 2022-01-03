@@ -51,6 +51,7 @@ public class Main {
                 System.out.println(result1+result2);
             }
         System.out.println("被熊忠伟修改过的地方");
+         System.out.println("被熊忠伟修改过的地方2");
 
 
 

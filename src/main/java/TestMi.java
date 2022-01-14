@@ -26,7 +26,9 @@ public class TestMi {
         if (k == s.length()) {
             result.add(new ArrayList<>(path));
             return;
+
         }
+        System.out.println("modify third result");
     }
 
 

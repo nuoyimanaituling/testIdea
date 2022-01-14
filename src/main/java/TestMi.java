@@ -27,6 +27,7 @@ public class TestMi {
             result.add(new ArrayList<>(path));
             return;
         }
+        System.out.println("first commit");
     }
 
 

@@ -31,6 +31,7 @@ public class TestMi {
         System.out.println("first commit");
         System.out.println("second commit");
         System.out.println("modify third result");
+        System.out.println("modify fourth result");
     }
 
 

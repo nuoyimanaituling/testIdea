@@ -17,6 +17,8 @@ public class TestMi {
             for (int j = 0; j < result.get(i).size(); j++) {
                 hash.add(result.get(i).get(j));
                 System.out.println("");
+                System.out.println("修改不同地方");
+                System.out.println("");
             }
         }
         return hash.size();

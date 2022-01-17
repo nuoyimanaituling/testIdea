@@ -23,5 +23,6 @@ public class Main {
     public static void main(String[] args) {
 
        reverse(123);
+       reverse(456);
     }
 }

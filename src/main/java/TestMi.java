@@ -40,6 +40,4 @@ public class TestMi {
         System.out.println("local user test");
     }
 
-
-
 }

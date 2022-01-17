@@ -37,6 +37,7 @@ public class TestMi {
         System.out.println("modify third result");
         System.out.println("modify fourth result");
         System.out.println("local user update result");
+        System.out.println("local user test");
     }
 
 

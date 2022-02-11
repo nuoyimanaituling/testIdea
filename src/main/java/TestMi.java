@@ -30,7 +30,6 @@ public class TestMi {
         if (k == s.length()) {
             result.add(new ArrayList<>(path));
             return;
-
         }
         System.out.println("first commit");
         System.out.println("second commit");
@@ -38,6 +37,8 @@ public class TestMi {
         System.out.println("modify fourth result");
         System.out.println("local user update result");
         System.out.println("local user test");
+
+        System.out.println("11111");
     }
 
 }

@@ -25,6 +25,13 @@ public class TestMi {
         }
         return hash.size();
     }
+    
+    public static void aaaaa(String a) {
+        System.out.println(a);
+    }
+    public static void bbaa(String b) {
+        System.out.println(b);
+    }
 
     public static void backtrack(String s, int k, List<String> path) {
         if (k == s.length()) {

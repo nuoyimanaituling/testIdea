@@ -58,6 +58,8 @@ public class Question1 {
     public static void main(String[] args) {
         System.out.println(chinese2digits("两百三十二"));
         System.out.println(chinese2digits("一亿零八万零三百二十三"));
-
+        System.out.println(chinese2digits("3333333333333333333333"));
+        System.out.println(chinese2digits("1111111111111111111111"));
+        System.out.println(chinese2digits("2222222222222222222222"));
     }
 }

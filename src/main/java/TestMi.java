@@ -49,6 +49,10 @@ public class TestMi {
         System.out.println("修改接口");
         System.out.println("xiugaijiekouzhihou");
         System.out.println("修改接口之后");
+        System.out.println("修改接口2");
+        System.out.println("修改接口3");
+        System.out.println("修改接口之后");
+        System.out.println("修改接口4");
     }
 
 }

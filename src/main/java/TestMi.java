@@ -30,6 +30,6 @@ public class TestMi {
         }
     }
 
-
+    static final String XZWXZWXZW = "aaa";
 
 }

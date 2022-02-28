@@ -43,4 +43,6 @@ public class TestCompleteFuture {
         }
     }
 
+    static final String getXzwxzwxzw = "testCompleteFuture";
+
 }

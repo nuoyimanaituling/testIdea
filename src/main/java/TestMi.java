@@ -69,5 +69,6 @@ public class TestMi {
     }
 
     static final String XZWXZWXZW = "aaa";
+    static final String XZWXZWXZW = "aaa";
 
 }

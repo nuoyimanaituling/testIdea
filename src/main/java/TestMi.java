@@ -70,5 +70,7 @@ public class TestMi {
 
     static final String XZWXZWXZW = "aaa";
     static final String getXzwxzwxzw = "aaaaaaa";
+    static final String XZWXZWXZW = "aaa";
+
 
 }

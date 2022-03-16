@@ -61,7 +61,8 @@ public class TestMi {
         System.out.println("修改接口666");
         System.out.println("修改接口411111");
         System.out.println("git update");
-        Sssssssssssssssss
+        Ssssssssssssssss
+        sout(aaaaaaaaaaa)
     }
 
     static final String XZWXZWXZW = "aaa";
